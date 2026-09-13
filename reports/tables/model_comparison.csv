@@ -1,0 +1,10 @@
+model,target_type,baseline,metric,mean,median,dispersion,percent_folds_beating_baseline,folds,warnings
+majority_class,classification,majority_class,balanced_accuracy,0.5,0.5,0.0,0.0,3,Too few folds for a reliable stability conclusion.; Model beats its baseline in fewer than half of valid folds.
+logistic_regression,classification,majority_class,balanced_accuracy,0.7333333333333334,0.7333333333333334,0.0,100.0,3,Too few folds for a reliable stability conclusion.
+random_forest_classifier,classification,majority_class,balanced_accuracy,0.9,0.9,0.0,100.0,3,Too few folds for a reliable stability conclusion.
+hist_gradient_boosting_classifier,classification,majority_class,balanced_accuracy,0.5,0.5,0.0,0.0,3,Too few folds for a reliable stability conclusion.; Model beats its baseline in fewer than half of valid folds.
+historical_mean,regression,historical_mean,rmse,0.0018748079229517374,0.0018036113278697514,0.00011280134160836328,0.0,3,Model beats its baseline in fewer than half of valid folds.
+zero_return,regression,historical_mean,rmse,0.0019752535826879024,0.002632234113960503,0.0011272352918784176,33.33333333333333,3,Fold performance has high variance.; Model beats its baseline in fewer than half of valid folds.
+linear_regression,regression,historical_mean,rmse,5.331287180148288e-06,4.756974070025504e-06,2.696537238370797e-06,100.0,3,Fold performance has high variance.
+random_forest_regressor,regression,historical_mean,rmse,0.001129583717461533,0.0006587263191338363,0.0007579269950486519,66.66666666666666,3,Fold performance has high variance.
+hist_gradient_boosting_regressor,regression,historical_mean,rmse,0.0018748079229517374,0.0018036113278697514,0.00011280134160836328,0.0,3,Model beats its baseline in fewer than half of valid folds.

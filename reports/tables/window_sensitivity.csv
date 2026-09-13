@@ -1,0 +1,3 @@
+configuration,mode,minimum_train_size,evaluation_size,model,target_type,baseline,metric,mean,median,dispersion,percent_folds_beating_baseline,folds,warnings
+expanding,expanding,12,8,linear_regression,regression,historical_mean,rmse,5.331287180148288e-06,4.756974070025504e-06,2.696537238370797e-06,100.0,3,Fold performance has high variance.
+rolling,rolling,12,8,linear_regression,regression,historical_mean,rmse,1.7883077400669107e-05,1.7883077400669107e-05,1.0582976015872431e-05,100.0,2,Too few folds for a reliable stability conclusion.

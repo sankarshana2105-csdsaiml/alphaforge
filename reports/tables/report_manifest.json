@@ -1,0 +1,17 @@
+{
+  "tables": [
+    "feature_ablation.csv",
+    "feature_importance.csv",
+    "fold_metrics.csv",
+    "horizon_sensitivity.csv",
+    "model_comparison.csv",
+    "regime_performance.csv",
+    "stability_summary.csv",
+    "target_distribution.csv",
+    "threshold_sensitivity.csv",
+    "train_oos_gap.csv",
+    "transaction_cost_stress.csv",
+    "walk_forward_aggregate_metrics.csv",
+    "window_sensitivity.csv"
+  ]
+}

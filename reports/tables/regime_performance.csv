@@ -1,0 +1,4 @@
+regime,sample_count,model_metric,baseline_metric,difference_vs_baseline,warning
+low_volatility,16,0.75,0.25,0.5,Too few samples for a reliable regime conclusion.
+high_volatility,8,0.8571428571428572,0.35714285714285715,0.5,Too few samples for a reliable regime conclusion.
+trending,24,0.7684210526315789,0.2894736842105263,0.47894736842105257,Too few samples for a reliable regime conclusion.

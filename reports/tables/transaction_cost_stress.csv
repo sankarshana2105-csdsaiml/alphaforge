@@ -1,0 +1,4 @@
+model,gross_result,cost_bps,net_result,turnover,position_changes,observations
+random_forest_classifier,0.02556398746680011,0.0,0.02556398746680011,5.0,2,24
+random_forest_classifier,0.02556398746680011,5.0,0.02306398746680011,5.0,2,24
+random_forest_classifier,0.02556398746680011,10.0,0.020563987466800108,5.0,2,24

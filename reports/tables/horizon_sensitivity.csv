@@ -1,0 +1,3 @@
+horizon,model,target_type,baseline,metric,mean,median,dispersion,percent_folds_beating_baseline,folds,warnings,signal_state,signal_direction_changes
+1,logistic_regression,classification,majority_class,balanced_accuracy,0.7333333333333334,0.7333333333333334,0.0,100.0,3,Too few folds for a reliable stability conclusion.,usually_beats_baseline,False
+5,logistic_regression,classification,majority_class,balanced_accuracy,0.9,0.9,0.0,100.0,2,Too few folds for a reliable stability conclusion.,usually_beats_baseline,False
