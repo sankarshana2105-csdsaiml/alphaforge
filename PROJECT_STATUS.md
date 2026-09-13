@@ -2,7 +2,17 @@
 
 ## Current phase
 
-Phase 7 — Portfolio and interview packaging: **PASS**.
+**FINALIZED — PUBLICLY PUBLISHED**
+
+AlphaForge is frozen. No additional feature or research development is planned in this repository.
+
+## Publication record
+
+- GitHub URL: https://github.com/sankarshana2105-csdsaiml/alphaforge
+- Published framework commit: `b8273aa9a64e3792dbd5ca8f5fe7ae392efe6b57`
+- Final test count: 69 passed
+- Recruiter audit score: 8.5/10
+- Final verdict: **NO PERSISTENT SIGNAL**
 
 ## Completed work
 
@@ -46,14 +56,12 @@ Phase 7 — Portfolio and interview packaging: **PASS**.
 - Documentation links, portable paths, secret patterns, and unsupported public claims: passed.
 - Verified with Python 3.12.14 in the project virtual environment.
 
-## Known risks
+## Remaining limitations
 
-- CSV data quality policies must be selected intentionally for each data vendor.
-- Walk-forward estimates remain sensitive to window sizes, horizon, asset, and sample period.
-- Fixed lightweight parameters are intentionally untuned and may underfit or overfit particular datasets.
-- Corporate actions, session gaps, symbol identity, and survivorship bias remain outside the current dataset scope.
-- No real market dataset or external lockbox replication is included, so persistent signal is not established.
+- No real-market external lockbox is included.
+- Synthetic outputs demonstrate methodology, not market profitability.
+- Survivorship, corporate-action, data-vendor, and multiple-testing risks remain.
 
 ## Exact next step
 
-Feature development is frozen. The repository is ready for public review; any empirical extension should be separately scoped around real market data and an untouched external lockbox.
+None. AlphaForge is frozen; any empirical extension must be scoped as a separate project using real market data and an untouched external lockbox.
